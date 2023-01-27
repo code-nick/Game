@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.playground{
+    position: relative;
+    background-color: darkgreen;
+    height: 500px;
+    width:100%;
+    float: left;
+}
+.mosquito{
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+        
+}
+.controls{
+    text-align: center;
+    font-size: 25px;
+}
+button{
+    width: 50%;
+    height: 2rem;
+    color: #fff;
+    background-color: black;
+    border-radius: 10px;
+}
